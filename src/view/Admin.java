@@ -111,7 +111,7 @@ public class Admin extends javax.swing.JFrame {
         NavbarMenu.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        NavbarMenu.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, 210, 250, 400));
+        NavbarMenu.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, 210, 250, 370));
 
         SanPham.setBackground(new java.awt.Color(255, 255, 255));
         SanPham.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -135,7 +135,7 @@ public class Admin extends javax.swing.JFrame {
             .addGroup(SanPhamLayout.createSequentialGroup()
                 .addGap(51, 51, 51)
                 .addComponent(jLabel1)
-                .addContainerGap(77, Short.MAX_VALUE))
+                .addContainerGap(78, Short.MAX_VALUE))
         );
         SanPhamLayout.setVerticalGroup(
             SanPhamLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -197,7 +197,7 @@ public class Admin extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PhieuNhapLayout.createSequentialGroup()
                 .addGap(51, 51, 51)
                 .addComponent(jLabel3)
-                .addContainerGap(65, Short.MAX_VALUE))
+                .addContainerGap(64, Short.MAX_VALUE))
         );
         PhieuNhapLayout.setVerticalGroup(
             PhieuNhapLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -228,7 +228,7 @@ public class Admin extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, XuatHangLayout.createSequentialGroup()
                 .addGap(51, 51, 51)
                 .addComponent(jLabel4)
-                .addContainerGap(73, Short.MAX_VALUE))
+                .addContainerGap(74, Short.MAX_VALUE))
         );
         XuatHangLayout.setVerticalGroup(
             XuatHangLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -258,14 +258,14 @@ public class Admin extends javax.swing.JFrame {
             .addGroup(DangXuatLayout.createSequentialGroup()
                 .addGap(62, 62, 62)
                 .addComponent(jLabel5)
-                .addContainerGap(62, Short.MAX_VALUE))
+                .addContainerGap(63, Short.MAX_VALUE))
         );
         DangXuatLayout.setVerticalGroup(
             DangXuatLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, 30, Short.MAX_VALUE)
         );
 
-        NavbarMenu.add(DangXuat, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 710, 220, 30));
+        NavbarMenu.add(DangXuat, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 630, 220, 30));
 
         NhaCungCap.setBackground(new java.awt.Color(255, 255, 255));
         NhaCungCap.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -359,7 +359,7 @@ public class Admin extends javax.swing.JFrame {
             .addGroup(TaiKhoan1Layout.createSequentialGroup()
                 .addGap(51, 51, 51)
                 .addComponent(jLabel12)
-                .addContainerGap(77, Short.MAX_VALUE))
+                .addContainerGap(78, Short.MAX_VALUE))
         );
         TaiKhoan1Layout.setVerticalGroup(
             TaiKhoan1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -419,7 +419,7 @@ public class Admin extends javax.swing.JFrame {
         AccountLayout.setHorizontalGroup(
             AccountLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, AccountLayout.createSequentialGroup()
-                .addContainerGap(53, Short.MAX_VALUE)
+                .addContainerGap(54, Short.MAX_VALUE)
                 .addComponent(jLabel14)
                 .addGap(41, 41, 41))
         );
@@ -428,12 +428,12 @@ public class Admin extends javax.swing.JFrame {
             .addComponent(jLabel14, javax.swing.GroupLayout.DEFAULT_SIZE, 28, Short.MAX_VALUE)
         );
 
-        NavbarMenu.add(Account, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 670, 220, -1));
+        NavbarMenu.add(Account, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 600, 220, -1));
 
         jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/UserAdmin.png"))); // NOI18N
         NavbarMenu.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 50, 100, 90));
 
-        getContentPane().add(NavbarMenu, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -10, 240, 760));
+        getContentPane().add(NavbarMenu, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -10, 240, 670));
 
         MainContent.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -441,14 +441,14 @@ public class Admin extends javax.swing.JFrame {
         MainContent.setLayout(MainContentLayout);
         MainContentLayout.setHorizontalGroup(
             MainContentLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1140, Short.MAX_VALUE)
+            .addGap(0, 940, Short.MAX_VALUE)
         );
         MainContentLayout.setVerticalGroup(
             MainContentLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 750, Short.MAX_VALUE)
+            .addGap(0, 660, Short.MAX_VALUE)
         );
 
-        getContentPane().add(MainContent, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 0, 1140, 750));
+        getContentPane().add(MainContent, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 0, 940, 660));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

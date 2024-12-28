@@ -252,7 +252,7 @@ public class NhaCungCapForm extends javax.swing.JInternalFrame {
                 txtSearchFormKeyReleased(evt);
             }
         });
-        jPanel3.add(txtSearchForm, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 30, 490, 40));
+        jPanel3.add(txtSearchForm, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 30, 370, 40));
 
         btnReset.setBackground(new java.awt.Color(204, 204, 204));
         btnReset.setFont(new java.awt.Font("SF Pro Display", 0, 15)); // NOI18N
@@ -262,9 +262,9 @@ public class NhaCungCapForm extends javax.swing.JInternalFrame {
                 btnResetActionPerformed(evt);
             }
         });
-        jPanel3.add(btnReset, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 30, 120, 40));
+        jPanel3.add(btnReset, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 30, 90, 40));
 
-        jPanel2.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 10, 910, 90));
+        jPanel2.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 10, 700, 90));
 
         jScrollPane1.setBorder(null);
 
@@ -282,9 +282,9 @@ public class NhaCungCapForm extends javax.swing.JInternalFrame {
         ));
         jScrollPane1.setViewportView(tblNCC);
 
-        jPanel2.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 120, 1110, 620));
+        jPanel2.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 110, 900, 520));
 
-        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1180, 750));
+        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 920, 640));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

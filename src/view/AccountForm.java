@@ -203,7 +203,7 @@ public class AccountForm extends javax.swing.JInternalFrame {
         });
         jToolBar1.add(btnAdd);
 
-        btnEditAccount.setIcon(new javax.swing.ImageIcon("C:\\Users\\VAN DINH\\Downloads\\icons8-edit-48.png")); // NOI18N
+        btnEditAccount.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/icons8-edit-30.png"))); // NOI18N
         btnEditAccount.setText("Sửa");
         btnEditAccount.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnEditAccount.setFocusable(false);
@@ -263,7 +263,7 @@ public class AccountForm extends javax.swing.JInternalFrame {
                 txtSearchKeyReleased(evt);
             }
         });
-        jPanel3.add(txtSearch, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 30, 500, 40));
+        jPanel3.add(txtSearch, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 30, 360, 40));
 
         btnreset.setBackground(new java.awt.Color(204, 204, 204));
         btnreset.setText("Làm mới");
@@ -273,9 +273,9 @@ public class AccountForm extends javax.swing.JInternalFrame {
                 btnresetActionPerformed(evt);
             }
         });
-        jPanel3.add(btnreset, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 30, 130, 40));
+        jPanel3.add(btnreset, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 30, 90, 40));
 
-        jPanel2.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 10, 910, 90));
+        jPanel2.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 10, 700, 90));
 
         jScrollPane1.setBorder(null);
 
@@ -292,9 +292,9 @@ public class AccountForm extends javax.swing.JInternalFrame {
         tblAccount.setShowGrid(true);
         jScrollPane1.setViewportView(tblAccount);
 
-        jPanel2.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 120, 1120, 620));
+        jPanel2.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 120, 910, 620));
 
-        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1180, 750));
+        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 920, 750));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

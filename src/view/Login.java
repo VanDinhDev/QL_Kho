@@ -211,8 +211,8 @@ public class Login extends javax.swing.JFrame {
         background.setBackground(new java.awt.Color(255, 255, 255));
         background.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabelbg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/Computer login-bro (Custom) (2).png"))); // NOI18N
-        jLabelbg.setDisabledIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/Computer login-bro (Custom) (2).png"))); // NOI18N
+        jLabelbg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/Computer-login-bro-_Custom_-_2_.jpg"))); // NOI18N
+        jLabelbg.setDisabledIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/Computer-login-bro-_Custom_-_2_.jpg"))); // NOI18N
         background.add(jLabelbg, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 80, 380, 380));
 
         jPanel1.add(background, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 400, 580));

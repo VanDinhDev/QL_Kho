@@ -286,10 +286,10 @@
             <Component class="javax.swing.JLabel" name="jLabelbg">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/icon/Computer login-bro (Custom) (2).png"/>
+                  <Image iconType="3" name="/icon/Computer-login-bro-_Custom_-_2_.jpg"/>
                 </Property>
                 <Property name="disabledIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/icon/Computer login-bro (Custom) (2).png"/>
+                  <Image iconType="3" name="/icon/Computer-login-bro-_Custom_-_2_.jpg"/>
                 </Property>
               </Properties>
               <Constraints>
